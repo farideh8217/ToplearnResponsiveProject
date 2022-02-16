@@ -1,0 +1,93 @@
+@media screen and (max-width:992px){
+    #nav h1{
+        float: left;
+        padding-top: 10px;
+    }
+    #nav ul{
+        display: none;
+    }
+    #nav .hamburger-icon{
+        display: block;
+        width:20%;
+        float: right;
+    }
+    #nav .hamburger-icon img{
+        width: 50px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    #responsive-navigation{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        background-image: url(../images/back-responsive.jpg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    #responsive-navigation ul{
+        padding: 0;
+    }
+    #bigSection{
+        height: 700px;
+    }
+    #bigSection .subtitle {
+        margin-bottom: 200px;
+    }
+}
+@media screen and (max-width:768px){
+    #bigSection .title{
+        font-size: 50px;
+        transition: all .5s ease;
+    }
+    #bigSection .subtitle {
+        font-size: 25px;
+    }
+    #bigSection .desc{
+        font-size: 17px;
+    }
+    #newsletter {
+        height: 110px;
+        text-align: center;
+    }
+    #newsletter  h2{
+        float: none;
+        padding-top: 0;
+    }
+    #newsletter  form{
+        float: none;
+        padding-top: 0;
+    }
+    #toplearn .container{
+        display: block;
+    }
+    #toplearn .section {
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px){
+    #bigsection{
+        height: 400px;
+    }
+    #bigsection .title{
+        padding: 0;
+        font-size: 40px;
+    }
+    #bigSection .subtitle {
+        margin-bottom: 0;
+    }
+    #bigSection .desc{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    #bigsection .title{
+        font-size: 30px;
+    }
+    #bigSection .subtitle {
+        margin-bottom:17;
+    }
+}
